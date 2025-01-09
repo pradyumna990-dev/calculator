@@ -1,0 +1,90 @@
+/* ...existing code... */
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("http://cdn.wallpapersafari.com/67/79/9arpdx.jpg") no-repeat
+    center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator-option {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-option h3 {
+  margin-top: 0;
+}
+
+.calculator-option input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.calculator-option button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculator-option button:hover {
+  background-color: #0056b3;
+}
+
+.calculator {
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent background */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Adjusted width */
+  max-width: 500px; /* Maximum width */
+}
+
+#display {
+  width: calc(100% - 30px); /* Adjusted width to fit within container */
+  padding: 10px; /* Adjusted padding */
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-align: right;
+  font-size: 1.5em; /* Increased font size */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ...existing code... */
