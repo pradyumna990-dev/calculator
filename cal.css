@@ -1,8 +1,6 @@
-/* ...existing code... */
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Light gray, clean and modern */
+  background-color: #e3edf7; /* Soft bluish-gray */
   margin: 0;
   padding: 20px;
   display: flex;
@@ -10,6 +8,7 @@ body {
   align-items: center;
   height: 100vh;
 }
+
 
 
 .calculator-option {
