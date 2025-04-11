@@ -2,9 +2,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: url("http://cdn.wallpapersafari.com/67/79/9arpdx.jpg") no-repeat
-    center center fixed;
-  background-size: cover;
+  background-color: #f0f0f0; /* Light gray, clean and modern */
   margin: 0;
   padding: 20px;
   display: flex;
@@ -12,6 +10,7 @@ body {
   align-items: center;
   height: 100vh;
 }
+
 
 .calculator-option {
   background-color: #fff;
