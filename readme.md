@@ -26,7 +26,7 @@ A stylish, responsive calculator built with HTML, CSS, Bootstrap 5, and JavaScri
 
 To get a local copy up and running, follow these simple steps.
 
-1.  Clone the repository (replace `your-username` with the actual GitHub username):
+1.  Clone the repository 
     ```sh
     git clone https://github.com/pradyumna990-dev/calculator.git
     ```
