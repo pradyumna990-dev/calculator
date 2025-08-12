@@ -1,48 +1,63 @@
-📟 Animated Calculator
-A stylish, responsive calculator built with HTML, CSS, Bootstrap 5, and JavaScript. Supports keyboard input, basic arithmetic operations, and animated UI.
+# 📟 Animated Calculator
 
-🚀 Features
-💻 Beautiful glassmorphism design
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-🎯 Keyboard & button input
+A stylish, responsive calculator built with HTML, CSS, Bootstrap 5, and JavaScript. It features a beautiful glassmorphism design, smooth animations, and supports both mouse and keyboard inputs.
 
-🧠 Handles basic arithmetic: +, −, ×, ÷
+![Calculator Preview](image.png)
 
-🔒 Input validation (no double operators)
+## 🚀 Features
 
-⚡ Smooth fade-in animation
+- **💻 Modern UI:** Beautiful glassmorphism design.
+- **🎯 Dual Input:** Supports both keyboard and mouse/touch input.
+- **🧠 Core Arithmetic:** Handles addition (`+`), subtraction (`−`), multiplication (`×`), and division (`÷`).
+- **🔒 Input Validation:** Prevents invalid inputs like consecutive operators.
+- **⚡ Smooth Animations:** Fade-in animations for a better user experience.
+- **📱 Fully Responsive:** Adapts seamlessly to any screen size.
 
-📱 Responsive layout
+## 🛠️ Technologies Used
 
-📂 File Structure
-bash
-Copy
-Edit
-├── index.html # Main calculator layout
-├── calc.js # JavaScript logic
-└── README.md # Project documentation
-🛠️ Technologies
-HTML5
+- **HTML5**
+- **CSS3**
+- **Bootstrap 5**
+- **JavaScript (Vanilla)**
 
-CSS3
+## 🏁 Getting Started
 
-Bootstrap 5
+To get a local copy up and running, follow these simple steps.
 
-JavaScript (Vanilla)
+1.  Clone the repository (replace `your-username` with the actual GitHub username):
+    ```sh
+    git clone https://github.com/your-username/calculator.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd calculator
+    ```
+3.  Open `index.html` in your favorite web browser.
 
-🎮 Keyboard Controls
-Key Action
-0–9 Input digits
+## 📂 File Structure
 
-- - - / Operators
-      . Decimal point
-      Enter or = Evaluate
-      Escape or C Clear
-      Backspace Delete last
+```
+.
+├── index.html      # Main calculator layout (HTML)
+├── calc.js         # Core logic (JavaScript)
+└── README.md       # Project documentation
+```
 
-📸 Preview
+## 🎮 Keyboard Controls
 
-![alt text](image.png)
+| Key                | Action                |
+| ------------------ | --------------------- |
+| `0`–`9`            | Input digits          |
+| `+`, `-`, `*`, `/` | Input operators       |
+| `.`                | Input decimal point   |
+| `Enter` or `=`     | Evaluate expression   |
+| `Escape` or `c`    | Clear all input (AC)  |
+| `Backspace`        | Delete last character |
 
-📄 License
-MIT License © 2025 — Pradyumna Behera
+## 📄 License
+
+This project is licensed under the MIT License.
+
+Copyright © 2025 — Pradyumna Behera
