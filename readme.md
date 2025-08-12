@@ -4,7 +4,7 @@
 
 A stylish, responsive calculator built with HTML, CSS, Bootstrap 5, and JavaScript. It features a beautiful glassmorphism design, smooth animations, and supports both mouse and keyboard inputs.
 
-![Calculator Preview](img\image.png)
+![Calculator Preview](img//image.png)
 
 ## 🚀 Features
 
